@@ -1,0 +1,50 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url(https://vignette.wikia.nocookie.net/lossimpson/images/5/50/Wiki-background/revision/latest?cb=20200108235134&path-prefix=es);
+}
+
+.frame{
+    width: 80%;
+    height: 300px;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+.button:hover{
+    padding: 15px;
+    background-color: #9f2e2a;
+    border-radius: 10px;
+    color: #ffffff;
+}
+#footer{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: darkgrey;
+    color:#ffffff;
+    padding: 20px;
+    left:0px;
+    bottom: 0px;
+}
+
+
+.button {
+    background-color: #f9d92e;
+    font-size:20px;
+    color:black;
+    -webkit-transition: all 3s;
+    }
+    .button:hover {
+        background-color: #f9d92e;
+    font-size:30px;
+    color:black;
+    -webkit-transition: all 1s;
+    }
