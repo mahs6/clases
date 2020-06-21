@@ -1,0 +1,238 @@
+/* css del index */
+
+
+
+.box {
+ 
+    padding: 50px;
+   
+}
+
+.menu {
+        font-size:20px;
+        color:black;
+        -webkit-transition: all 3s;
+        }
+        .menu:hover {
+        font-size:30px;
+        color:black;
+        -webkit-transition: all 1s;
+        }
+
+.tituloinicio{
+    width: 35%;
+}        
+       
+#contenido{
+    width: 95%;
+    height: 80%; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}        
+
+/* css de la galeria */
+        .galeria {
+                border-style:groove;
+                border-width:10px;
+                border-color:gold;
+                border-radius:20 20;
+                
+        }
+
+        .titulo {
+            color: black;
+            font-size: 500%;
+            width: 550PX;
+            height: 95PX;
+            border-style:groove;
+            border-width:10px;
+            border-color:gold;
+            border-radius:20 20;
+            box-shadow:10px 10px 20px black; 
+        }
+
+
+/* css de los personajes */
+
+.tituloper {
+    color: #fffaf0;                                        /* color hexa */
+    font-size:200%;
+    width: 240PX;
+    height: 48PX;
+    border-style:groove;
+    border-width:5px;
+    border-color:rgb(255, 215, 0);                         /* color rgb */
+    border-radius:20 20;
+    box-shadow:10px 10px 20px black; 
+}
+
+
+.per {
+    border-style:groove;
+    border-width:5px; 
+    border-color:hsl(51, 100%, 50%);                       /* color hsl */
+    border-radius:20 20;
+}
+
+
+.boxper {
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+
+.margentext {
+    padding: 10px;
+    font-size: 25px;
+    color: floralwhite;
+}
+
+
+
+/* css prueba */
+
+
+#cap1{
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+#cap2{
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+#cap3{
+    background-color: rgba(105, 105, 105, 0.8);            /* color rgba */
+    border-color:#ffd700;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+
+
+
+
+
+/* simbolos para el footer */
+
+#facebook {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -52px -100px;
+    }
+    
+    #facebook:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -52px -50px;
+    }
+    
+    #youtube {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -98px -100px;
+    }
+    
+    
+    #youtube:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -98px -50px;
+    }
+    
+    #twitter {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -145px -100px;
+    }
+    #twitter:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://4.bp.blogspot.com/-fE6jY2sCjhE/TmjsS516Q8I/AAAAAAAACOc/pVUNDOgiw8Q/s1600/redes.png) -145px -50px;
+    }
+
+    .boxfooter {
+        background-color: rgba(105, 105, 105, 0.8);            /* color rgba */  
+        width: 95%;
+        height: 80%;
+        padding: 10px;                                      /* padding */ 
+        margin: 10px;                                      /* margin */ 
+        border-width: 5px;
+    }
+
+
+
+    /* css app */
+
+    * {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    body{
+        background-image: url(https://vignette.wikia.nocookie.net/lossimpson/images/5/50/Wiki-background/revision/latest?cb=20200108235134&path-prefix=es);
+    }
+    
+    .frame{
+        width: 80%;
+        height: 300px;
+    }
+    #body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+    
+    
+    .button {
+        background-color: #f9d92e;
+        font-size:20px;
+        color:black;
+        padding: 15px;
+        border-radius: 10px;
+        margin:20px;
+        -webkit-transition: all 3s;
+     }
+    
+    .button:hover {
+        background-color: #f9d92e;
+        font-size:30px;
+        color:black;
+        padding: 15px;   
+        border-radius: 10px;
+        -webkit-transition: all 1s;
+        }
+    
+    
+    
+        .boxfooter {
+            background-color: rgba(105, 105, 105, 0.8);            /* color rgba */  
+            width: 95%;
+            height: 80%;
+            padding: 10px;                                      /* padding */ 
+            margin: 10px;                                      /* margin */ 
+            border-width: 5px;
+        }
+    
